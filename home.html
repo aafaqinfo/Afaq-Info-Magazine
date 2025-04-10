@@ -18,6 +18,8 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="home.html">
+                <!-- إضافة شعار للموقع -->
+                <img src="asset/taibah-university.png" alt="شعار آفاق المعلومات" height="40" class="me-2">
                 <span class="text-primary">آفاق</span> المعلومات
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +34,8 @@
                         <a class="nav-link" href="home.html#about">نبذة</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="home.html#opportunities">الفرص الوظيفية</a>
+                        <!-- استبدال قسم الفرص الوظيفية برابط لموقع القسم -->
+                        <a class="nav-link" href="https://www.taibahu.edu.sa/Pages/AR/Sector/SectorPage.aspx?ID=40" target="_blank">موقع القسم</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="home.html#message">كلمة رئيس القسم</a>
@@ -44,7 +47,7 @@
                         <a class="nav-link" href="home.html#vision">الرؤية والرسالة</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="research-page.html">الأبحاث العلمية</a>
+                        <a class="nav-link active" href="research-page.html">مشاريع التخرج</a>
                     </li>
                     <li class="nav-item">
                         <div class="theme-switch-wrapper ms-3">
@@ -67,14 +70,12 @@
     <section id="hero" class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 text-center text-lg-end">
+                <div class="col-lg-12 text-center">
                     <h1 class="mb-4 animated fadeInDown">آفاق المعلومات</h1>
-                    <p class="mb-4 lead animated fadeInUp">مجلة علمية متخصصة في مجال المعلومات ومصادر التعلم</p>
-                    <a href="research-page.html" class="btn btn-primary btn-lg px-4 animated fadeInUp">الأبحاث العلمية</a>
+                    <p class="mb-4 lead animated fadeInUp">مجلة علمية متخصصة في نشر مشاريع التخرج لقسم تقنية المعلومات ومصادر التعلم.</p>
+                    <a href="research-page.html" class="btn btn-primary btn-lg px-4 animated fadeInUp">مشاريع التخرج</a>
                 </div>
-                <div class="col-lg-6 text-center animated fadeInUp">
-                    <img src="asset/Main_image.svg" alt="مجلة آفاق المعلومات" class="img-fluid hero-image">
-                </div>
+                <!-- تمت إزالة الصورة في قسم Hero -->
             </div>
         </div>
     </section>
@@ -87,7 +88,7 @@
                     <span class="section-subtitle">من نحن</span>
                     <h2 class="section-title">نبذة عن القسم</h2>
                 </div>
-                <div class="col-md-6 mb-4 mb-md-0">
+                <div class="col-md-12">
                     <div class="about-content">
                         <p class="lead">
                             أنشئ قسم المعلومات ومصادر التعلم مواكباً لانطلاقة كلية الآداب والعلوم الإنسانية بجامعة طيبة بالمدينة المنورة، بالأمر الملكي الكريم لخادم الحرمين الشريفين.
@@ -100,11 +101,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="about-image">
-                        <img src="asset/About_the_Department.svg" alt="قسم المعلومات ومصادر التعلم" class="img-fluid rounded">
-                    </div>
-                </div>
+                <!-- تمت إزالة الصورة في قسم About -->
             </div>
         </div>
     </section>
@@ -145,71 +142,26 @@
         </div>
     </section>
 
-    <!-- Job Opportunities Section -->
-    <section id="opportunities" class="section">
+    <!-- قسم موقع القسم في جامعة طيبة -->
+    <section id="department-site" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mb-5">
-                    <span class="section-subtitle">المستقبل المهني</span>
-                    <h2 class="section-title">الفرص الوظيفية</h2>
+                    <span class="section-subtitle">روابط مفيدة</span>
+                    <h2 class="section-title">موقع القسم الرسمي</h2>
                 </div>
-                <div class="col-md-12">
-                    <p class="lead text-center mb-5">يتاح لخريجي قسم المعلومات ومصادر التعلم العديد من الفرص الوظيفية منها:</p>
-                    <div class="row">
-                        <div class="col-md-4 mb-4">
-                            <div class="card service-card">
-                                <div class="card-body text-center">
-                                    <div class="card-icon">
-                                        <i class="fas fa-user-tie"></i>
-                                    </div>
-                                    <h5 class="card-title">أخصائي معلومات</h5>
-                                    <p class="card-text">في المؤسسات الحكومية والخاصة على اختلاف أنواعها.</p>
-                                </div>
+                <div class="col-md-6 mx-auto">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <div class="card-icon">
+                                <i class="fas fa-university"></i>
                             </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card service-card">
-                                <div class="card-body text-center">
-                                    <div class="card-icon">
-                                        <i class="fas fa-globe"></i>
-                                    </div>
-                                    <h5 class="card-title">إدارة محتوى مواقع الانترنت</h5>
-                                    <p class="card-text">لكافة المؤسسات والشركات.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card service-card">
-                                <div class="card-body text-center">
-                                    <div class="card-icon">
-                                        <i class="fas fa-book"></i>
-                                    </div>
-                                    <h5 class="card-title">أخصائي معلومات بالمكتبات</h5>
-                                    <p class="card-text">ومراكز البحوث ومراكز المعلومات.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-4">
-                            <div class="card service-card">
-                                <div class="card-body text-center">
-                                    <div class="card-icon">
-                                        <i class="fas fa-graduation-cap"></i>
-                                    </div>
-                                    <h5 class="card-title">معيد بأقسام المعلومات</h5>
-                                    <p class="card-text">للمتميزين من الخريجين والخريجات.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-4">
-                            <div class="card service-card">
-                                <div class="card-body text-center">
-                                    <div class="card-icon">
-                                        <i class="fas fa-chalkboard-teacher"></i>
-                                    </div>
-                                    <h5 class="card-title">العمل بالتدريس</h5>
-                                    <p class="card-text">في المدارس الثانوية ومراكز مصادر التعلم.</p>
-                                </div>
-                            </div>
+                            <h5 class="card-title">قسم المعلومات ومصادر التعلم</h5>
+                            <p class="card-text">للمزيد من المعلومات عن القسم وبرامجه الأكاديمية والأنشطة التعليمية، يمكنكم زيارة الموقع الرسمي للقسم.</p>
+                            <a href="https://www.taibahu.edu.sa/Pages/AR/Sector/SectorPage.aspx?ID=40" target="_blank" class="btn btn-primary mt-3">
+                                <i class="fas fa-external-link-alt me-2"></i>
+                                زيارة موقع القسم
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -379,9 +331,9 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="col-lg-6 mb-4 mb-lg-0">
                     <h5 class="footer-heading">آفاق المعلومات</h5>
-                    <p class="text-white-50">مجلة علمية متخصصة في مجال المعلومات ومصادر التعلم بجامعة طيبة.</p>
+                    <p class="text-white-50">مجلة علمية متخصصة في نشر مشاريع التخرج لقسم تقنية المعلومات ومصادر التعلم. بجامعة طيبة.</p>
                     <div class="social-icons">
                         <a href="https://x.com/taibahu" class="social-icon"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.facebook.com/UniversityOfTaibah" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -389,17 +341,8 @@
                         <a href="https://www.linkedin.com/school/taibah-university" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5 class="footer-heading">روابط سريعة</h5>
-                    <ul class="footer-links">
-                        <li><a href="#about">نبذة عن القسم</a></li>
-                        <li><a href="#opportunities">الفرص الوظيفية</a></li>
-                        <li><a href="#message">كلمة رئيس القسم</a></li>
-                        <li><a href="#goals">أهداف القسم</a></li>
-                        <li><a href="#vision">الرؤية والرسالة</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
+                <!-- تمت إزالة قسم الروابط السريعة في التذييل -->
+                <div class="col-lg-6">
                     <h5 class="footer-heading">معلومات الاتصال</h5>
                     <div class="footer-contact">
                         <p><i class="fas fa-phone"></i> الهاتف: 966148618024+</p>
