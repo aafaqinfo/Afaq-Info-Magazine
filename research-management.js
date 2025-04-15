@@ -8,47 +8,18 @@ const researchData = {
     // Information Organization Sector
     organization: {
         "1446": [
-            {
-                id: "org-1446-1",
-                title: "نظم تصنيف المعلومات الذكية: دراسة تحليلية للمعايير المستخدمة",
-                author: "د. أحمد محمد السعيدي",
-                date: "شوال 1446",
-                pages: 25,
-                abstract: "تتناول هذه الدراسة معايير تصنيف المعلومات الذكية وتحليل الأنظمة المستخدمة في المكتبات ومراكز المعلومات المتطورة، مع التركيز على التقنيات الحديثة والذكاء الاصطناعي في فهرسة وتنظيم المعلومات.",
-                downloads: 45,
-                filename: "organization/1446/intelligent_classification_systems.pdf"
-            },
-            {
-                id: "org-1446-2",
-                title: "التصنيف الموضوعي الإلكتروني للوثائق العربية: التحديات والحلول",
-                author: "د. فاطمة عبدالله الزهراني",
-                date: "رجب 1446",
-                pages: 32,
-                abstract: "تستعرض هذه الدراسة التحديات التي تواجه التصنيف الموضوعي الإلكتروني للوثائق العربية في العصر الرقمي، وتقترح حلولاً عملية لتحسين كفاءة نظم الفهرسة والتصنيف.",
-                downloads: 37,
-                filename: "organization/1446/arabic_electronic_classification.pdf"
-            },
-            {
-                id: "org-1446-3",
-                title: "عنوان البحث الجديد",
-                author: "د. اسم المؤلف",
-                date: "ربيع الأول 1446",
-                pages: 30,
-                abstract: "ملخص البحث الجديد. يمكنك كتابة وصف مختصر للبحث هنا لتوضيح محتواه للقراء.",
-                downloads: 0,
-                filename: "organization/1446/new_research_paper.pdf"
-            }
+            
         ],
         "1445": [
+           
             {
-                id: "org-1445-1",
-                title: "مستقبل علم التصنيف في ظل التطورات التكنولوجية الحديثة",
-                author: "د. سارة محمد العتيبي",
-                date: "ذو الحجة 1445",
-                pages: 28,
-                abstract: "تبحث هذه الدراسة في آفاق مستقبل علم التصنيف في ظل الثورة الرقمية والتطورات التكنولوجية، وتناقش تأثير الذكاء الاصطناعي وتعلم الآلة على أنظمة تصنيف المعلومات.",
-                downloads: 56,
-                filename: "organization/1445/future_of_classification.pdf"
+                id: "org-1445-2",
+                title: "معوقات تطبيق حلول الارشفة الإلكترونية من وجهة نظر الموظفين بمراكز الأرشيف",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1445",
+                pages: 93,
+                downloads: 0,
+                filename: "organization/1445/1445_org_alshishini_electronic_archiving_obstacles.pdf"
             }
         ],
         "1444": [
@@ -58,8 +29,7 @@ const researchData = {
                 author: "د. عبدالرحمن أحمد المالكي",
                 date: "صفر 1444",
                 pages: 30,
-                abstract: "تهدف هذه الدراسة إلى تقييم أنظمة تكشيف المعلومات المستخدمة في المكتبات الجامعية بالمملكة العربية السعودية، وتحليل مدى فعاليتها في تلبية احتياجات المستفيدين.",
-                downloads: 43,
+                downloads: 0,
                 filename: "organization/1444/saudi_indexing_evaluation.pdf"
             }
         ],
@@ -70,8 +40,7 @@ const researchData = {
                 author: "د. عبدالرحمن أحمد المالكي",
                 date: "صفر 1443",
                 pages: 30,
-                abstract: "تهدف هذه الدراسة إلى تقييم أنظمة تكشيف المعلومات المستخدمة في المكتبات الجامعية بالمملكة العربية السعودية، وتحليل مدى فعاليتها في تلبية احتياجات المستفيدين.",
-                downloads: 43,
+                downloads: 0,
                 filename: "organization/1443/1443_alsaidi_intelligent.pdf"
             }
         ]
@@ -80,133 +49,110 @@ const researchData = {
     // Information Sources Sector
     sources: {
         "1446": [
-            {
-                id: "src-1446-1",
-                title: "اتجاهات استخدام مصادر المعلومات الرقمية في البحث العلمي",
-                author: "د. نورة سعد القحطاني",
-                date: "محرم 1446",
-                pages: 27,
-                abstract: "تستعرض هذه الدراسة اتجاهات استخدام مصادر المعلومات الرقمية في البحث العلمي لدى طلاب الدراسات العليا، وتحليل مدى اعتمادهم على المصادر الإلكترونية مقارنة بالمصادر التقليدية.",
-                downloads: 62,
-                filename: "sources/1446/digital_sources_usage.pdf"
-            }
+            
         ],
         "1445": [
-            {
-                id: "src-1445-1",
-                title: "تقييم جودة مصادر المعلومات المفتوحة: دراسة تحليلية",
-                author: "د. محمد عبدالله الغامدي",
-                date: "شعبان 1445",
-                pages: 35,
-                abstract: "تقدم هذه الدراسة تقييماً شاملاً لجودة مصادر المعلومات المفتوحة المتاحة على الإنترنت، وتحليل معايير موثوقيتها وصلاحيتها للاستخدام في الأبحاث الأكاديمية.",
-                downloads: 41,
-                filename: "sources/1445/open_sources_quality.pdf"
-            }
+            
         ],
-        "1444": [],
+        "1444": [
+
+        ],
         "1443": [
-            {
-                id: "src-1443-1",
-                title: "استخدام المستودعات الرقمية في الجامعات السعودية: الواقع والمأمول",
-                author: "د. خالد سليمان الحربي",
-                date: "ربيع الأول 1443",
-                pages: 29,
-                abstract: "تتناول هذه الدراسة واقع استخدام المستودعات الرقمية في الجامعات السعودية، وتحليل مستوى الإفادة منها في دعم البحث العلمي، مع تقديم تصور مقترح لتطوير هذه المستودعات.",
-                downloads: 78,
-                filename: "sources/1443/saudi_digital_repositories.pdf"
-            }
+           
         ]
     },
 
     // Information Services Sector
     services: {
-        "1446": [],
+        "1446": [
+
+        ],
         "1445": [
+          
             {
-                id: "svc-1445-1",
-                title: "تطبيقات الذكاء الاصطناعي في خدمات المعلومات بالمكتبات الجامعية",
-                author: "د. هاني مصطفى النجار",
-                date: "رمضان 1445",
-                pages: 38,
-                abstract: "تستعرض هذه الدراسة تطبيقات الذكاء الاصطناعي وأنظمة المساعدة الافتراضية في تقديم خدمات المعلومات بالمكتبات الجامعية، مع تحليل تجارب عالمية رائدة في هذا المجال.",
-                downloads: 83,
-                filename: "services/1445/ai_in_library_services.pdf"
+                id: "svc-1445-2",
+                title: "وعي المجتمع السعودي بأمن وشفافية المعلومات بخدمات الحكومة الإلكترونية: دراسة ميدانية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1445",
+                pages: 88,
+                downloads: 0,
+                filename: "services/1445/1445_svc_alshishini_egovernment_information_security.pdf"
             }
         ],
         "1444": [
+          
             {
-                id: "svc-1444-1",
-                title: "خدمات المعلومات الافتراضية في ظل جائحة كورونا: دراسة ميدانية",
-                author: "د. منى إبراهيم الشمري",
-                date: "جمادى الآخرة 1444",
-                pages: 34,
-                abstract: "تناقش هذه الدراسة تحول خدمات المعلومات إلى النمط الافتراضي خلال جائحة كورونا، وتأثير ذلك على كفاءة تقديم الخدمات وإمكانية الاستفادة من هذه التجربة في فترة ما بعد الجائحة.",
-                downloads: 92,
-                filename: "services/1444/virtual_info_services_covid.pdf"
+                id: "svc-1444-2",
+                title: "مدى وعي منسوبي الجامعة الإسلامية بالمدينة المنورة بأخلاقيات النشر العلمي: دراسة ميدانية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1444",
+                pages: 82,
+                downloads: 0,
+                filename: "services/1444/1444_svc_alshishini_islamic_university_publishing_ethics.pdf"
             }
         ],
         "1443": [
-            {
-                id: "svc-1443-1",
-                title: "قياس جودة خدمات المعلومات في المكتبات الجامعية السعودية",
-                author: "د. عبير أحمد الشهري",
-                date: "ذو القعدة 1443",
-                pages: 31,
-                abstract: "تهدف هذه الدراسة إلى قياس جودة خدمات المعلومات المقدمة في المكتبات الجامعية السعودية باستخدام نموذج LibQUAL، وتحليل مستوى رضا المستفيدين عن هذه الخدمات.",
-                downloads: 67,
-                filename: "services/1443/service_quality_measurement.pdf"
-            }
+           
         ]
     },
 
     // Information Technology Sector
     technology: {
         "1446": [
-            {
-                id: "tech-1446-1",
-                title: "استخدام تقنية البلوكتشين في إدارة حقوق الملكية الفكرية للمحتوى الرقمي",
-                author: "د. علي حسن المحمدي",
-                date: "جمادى الأولى 1446",
-                pages: 36,
-                abstract: "تتناول هذه الدراسة إمكانية استخدام تقنية البلوكتشين في حماية حقوق الملكية الفكرية للمحتوى الرقمي، وتقديم نموذج مقترح لتطبيق هذه التقنية في المكتبات ومراكز المعلومات.",
-                downloads: 59,
-                filename: "technology/1446/blockchain_intellectual_property.pdf"
-            }
+            
         ],
         "1445": [
+          
             {
-                id: "tech-1445-1",
-                title: "تطبيقات إنترنت الأشياء في مراكز المعلومات والمكتبات الذكية",
-                author: "د. فهد خالد الدوسري",
-                date: "محرم 1445",
-                pages: 33,
-                abstract: "تستعرض هذه الدراسة تطبيقات تقنية إنترنت الأشياء في تطوير مراكز المعلومات والمكتبات الذكية، وتحليل تجارب عالمية رائدة في هذا المجال، مع تقديم تصور مقترح للتطبيق محلياً.",
-                downloads: 75,
-                filename: "technology/1445/iot_in_smart_libraries.pdf"
+                id: "tech-1445-2",
+                title: "الافادة من التطبيقات التعليمية في مدارس المدينة المنورة: دراسة ميدانية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1445",
+                pages: 92,
+                downloads: 0,
+                filename: "technology/1445/1445_tech_alshishini_educational_apps_medina.pdf"
             }
         ],
         "1444": [
+          
             {
-                id: "tech-1444-1",
-                title: "تطبيقات الواقع المعزز في مراكز مصادر التعلم: دراسة تجريبية",
-                author: "د. نوف سعد العتيبي",
-                date: "ربيع الثاني 1444",
-                pages: 29,
-                abstract: "تهدف هذه الدراسة إلى تحليل تطبيقات الواقع المعزز في مراكز مصادر التعلم وتأثيرها على تجربة المستفيدين، مع دراسة تجريبية لتطبيق تقنية الواقع المعزز في مركز مصادر التعلم بجامعة طيبة.",
-                downloads: 68,
-                filename: "technology/1444/augmented_reality_learning.pdf"
+                id: "tech-1444-2",
+                title: "تقييم المواقع الالكترونية والتطبيقات الذكية لشركات الاتصالات بالمملكة العربية السعودية: دراسة تقييمية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1444",
+                pages: 133,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
             }
         ],
         "1443": [
+           
             {
-                id: "tech-1443-1",
-                title: "تحليل البيانات الضخمة ودورها في تطوير خدمات المكتبات الرقمية",
-                author: "د. هدى إبراهيم الخالدي",
-                date: "شوال 1443",
-                pages: 37,
-                abstract: "تتناول هذه الدراسة دور تحليل البيانات الضخمة في تطوير خدمات المكتبات الرقمية، وتقديم نماذج عملية لتوظيف تقنيات تحليل البيانات في تحسين تجربة المستفيدين وصناعة القرار.",
-                downloads: 86,
-                filename: "technology/1443/big_data_digital_libraries.pdf"
+                id: "tech-1443-2",
+                title: "التطبيقات الذكية كأحد مشروعات التحول الرقمي في ظل رؤية المملكة العربية السعودية 2030: دراسة وصفية تحليلية تقييميه",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1443",
+                pages: 125,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_alshishini_smart_apps_vision2030.pdf"
+            },
+            {
+                id: "tech-1443-3",
+                title: "تطبيقات الهواتف الذكية التي تفيد طلبة علم المعلومات: دراسة وصفية تحليلية تقييمية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1443",
+                pages: 192,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_alshishini_smartphone_apps_infoscience.pdf"
+            },
+            {
+                id: "tech-1443-4",
+                title: "المنصات والبوابات الالكترونية كإحدى مشروعات التحول الرقمي في ظل رؤية 2030: دراسة وصفية تقييمية تحليلية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1443",
+                pages: 180,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_alshishini_digital_platforms_vision2030.pdf"
             }
         ]
     }
@@ -310,10 +256,7 @@ function createResearchPaperElement(paper) {
             <span class="me-3"><i class="far fa-calendar-alt me-1"></i>${paper.date}</span>
             <span><i class="fas fa-file-pdf me-1"></i>${paper.pages} صفحة</span>
         </div>
-        <p class="research-abstract">
-            ${paper.abstract}
-        </p>
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center mt-3">
             <a href="downloads/${paper.filename}" class="btn btn-primary download-btn" data-research-id="${paper.id}">
                 <i class="fas fa-download"></i>
                 تحميل البحث
@@ -361,8 +304,7 @@ function setupSearch() {
                                 if (paper) {
                                     const matchesSearch = 
                                         paper.title.toLowerCase().includes(searchValue) ||
-                                        paper.author.toLowerCase().includes(searchValue) ||
-                                        paper.abstract.toLowerCase().includes(searchValue);
+                                        paper.author.toLowerCase().includes(searchValue);
                                     
                                     if (matchesSearch) {
                                         paperElement.style.display = 'block';
