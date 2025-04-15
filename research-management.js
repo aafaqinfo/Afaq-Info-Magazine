@@ -23,26 +23,10 @@ const researchData = {
             }
         ],
         "1444": [
-            {
-                id: "org-1444-1",
-                title: "تقييم أنظمة تكشيف المعلومات في المكتبات الجامعية السعودية",
-                author: "د. عبدالرحمن أحمد المالكي",
-                date: "صفر 1444",
-                pages: 30,
-                downloads: 0,
-                filename: "organization/1444/saudi_indexing_evaluation.pdf"
-            }
+          
         ],
         "1443": [
-            {
-                id: "org-1443-1",
-                title: "تقييم أنظمة تكشيف المعلومات في المكتبات الجامعية السعودية",
-                author: "د. عبدالرحمن أحمد المالكي",
-                date: "صفر 1443",
-                pages: 30,
-                downloads: 0,
-                filename: "organization/1443/1443_alsaidi_intelligent.pdf"
-            }
+           
         ]
     },
 
