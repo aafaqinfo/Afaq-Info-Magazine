@@ -139,6 +139,58 @@ const researchData = {
                 filename: "technology/1443/1443_tech_alshishini_digital_platforms_vision2030.pdf"
             }
         ]
+    },
+
+    IKMInstitutions: {
+        "1446": [
+            
+        ],
+        "1445": [
+          
+            {
+                id: "tech-1445-2",
+                title: "الافادة من التطبيقات التعليمية في مدارس المدينة المنورة: دراسة ميدانية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1445",
+                pages: 92,
+                downloads: 0,
+                filename: "technology/1445/1445_tech_alshishini_educational_apps_medina.pdf"
+            }
+        ],
+        "1444": [
+          
+            {
+                id: "tech-1444-2",
+                title: "تقييم المواقع الالكترونية والتطبيقات الذكية لشركات الاتصالات بالمملكة العربية السعودية: دراسة تقييمية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1444",
+                pages: 133,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
+            },
+            {
+                id: "tech-1444-2",
+                title: "تقييم المواقع الالكترونية والتطبيقات الذكية لشركات الاتصالات بالمملكة العربية السعودية: دراسة تقييمية",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1444",
+                pages: 133,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
+            }
+        ],
+        "1443": [
+           
+            {
+                id: "tech-1443-2",
+                title: "التطبيقات الذكية كأحد مشروعات التحول الرقمي في ظل رؤية المملكة العربية السعودية 2030: دراسة وصفية تحليلية تقييميه",
+                author: "المشرف: د.بسمة خليفة الشيشيني",
+                date: "1443",
+                pages: 125,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_alshishini_smart_apps_vision2030.pdf"
+            }
+          
+        ]
     }
 };
 
@@ -191,6 +243,7 @@ function getSectorPrefix(sector) {
         case 'sources': return 'src';
         case 'services': return 'svc';
         case 'technology': return 'tech';
+        case 'IKMInstitutions': return 'IKM';
         default: return sector;
     }
 }
