@@ -7,13 +7,10 @@
 const researchData = {
     // Information Organization Sector
     organization: {
-        "1446": [
-            
-        ],
+        "1446": [],
         "1445": [
-           
             {
-                id: "org-1445-2",
+                id: "org-1445-1",
                 title: "معوقات تطبيق حلول الارشفة الإلكترونية من وجهة نظر الموظفين بمراكز الأرشيف",
                 author: "المشرف: د.بسمة خليفة الشيشيني",
                 date: "1445",
@@ -23,26 +20,53 @@ const researchData = {
             }
         ],
         "1444": [
-          
+            {
+                id: "org-1444-1",
+                title: "مدى الإفادة من الفهرسة الآلية للمكتبة المركزية بالجامعة الإسلامية - دراسة تحليلية",
+                author: "المشرف: د.رحاب سويفي",
+                date: "1444",
+                pages: 84,
+                downloads: 0,
+                filename: "organization/1444/1444_org_suwayfi_automated_cataloging_islamic_university.pdf"
+            },
+            {
+                id: "org-1444-2",
+                title: "مدى افادة اخصائي المكتبات من بطاقات الفهرسة اثناء النشر",
+                author: "المشرف: د.رحاب سويفي",
+                date: "1444",
+                pages: 74,
+                downloads: 0,
+                filename: "organization/1444/1444_org_suwayfi_lis_specialists_cataloging_cards.pdf"
+            }
         ],
-        "1443": [
-           
-        ]
+        "1443": []
     },
 
     // Information Sources Sector
     sources: {
-        "1446": [
-            
-        ],
-        "1445": [
-            
-        ],
+        "1446": [],
+        "1445": [],
         "1444": [
-
+            {
+                id: "src-1444-1",
+                title: "الإنتاج الفكــري العربـي في مجـال الذكاء الاصطنـاعي -دراسة ببليومترية وصفية تحليلية",
+                author: "المشرف: د.نداء طلبة",
+                date: "1444",
+                pages: 75,
+                downloads: 0,
+                filename: "sources/1444/1444_src_talba_arabic_ai_intellectual_production.pdf"
+            }
         ],
         "1443": [
-           
+            {
+                id: "src-1443-1",
+                title: "الإنتاج الفكري للمرأة في المملكة العربية دراسة ببليوجرافية ببليومترية",
+                author: "المشرف: د.امل عبدالفتاح",
+                date: "1443",
+                pages: 566,
+                downloads: 0,
+                filename: "sources/1443/1443_src_abdulfattah_saudi_women_intellectual_production.pdf"
+            }
         ]
     },
 
@@ -73,10 +97,99 @@ const researchData = {
                 pages: 82,
                 downloads: 0,
                 filename: "services/1444/1444_svc_alshishini_islamic_university_publishing_ethics.pdf"
+            },
+            {
+                id: "svc-1444-1",
+                title: "مدى وعي طلبة الكلية التقنية بالمدينة المنورة بتقنية الذكاء الاصنطاعي chatgpt وواقع استخدامهم لها في الحصول على المعلومات",
+                author: "المشرف: د.صقر العتيبي",
+                date: "1444",
+                pages: 56,
+                downloads: 0,
+                filename: "services/1444/1444_svc_alutaibi_chatgpt_awareness_technical_college.pdf"
+            },
+            {
+                id: "svc-1444-2",
+                title: "استخدام محركات بحث الأطفال لدى عينة من طلاب المدارس الابتدائية والمتوسطة بالمدينة المنورة: دراسة ميدانية",
+                author: "المشرف: د.امل عبدالفتاح",
+                date: "1444",
+                pages: 126,
+                downloads: 0,
+                filename: "services/1444/1444_svc_abdulfattah_children_search_engines.pdf"
+            },
+            {
+                id: "svc-1444-3",
+                title: "الوعي المعلوماتي لأخصائيي المعلومات بالمهارات اللازمة في ظل التحول الرقمي: دراسة ميدانية بمكتبات المدينة المنورة",
+                author: "المشرف: د.ماضي السبيع",
+                date: "1444",
+                pages: 51,
+                downloads: 0,
+                filename: "services/1444/1444_svc_alsubai_information_literacy_digital_transformation.pdf"
+            },
+            {
+                id: "svc-1444-4",
+                title: "اتجاهات أعضاء هيئة التدريس في جامعة طيبة نحو إنشاء مستودع للبيانات البحثية",
+                author: "المشرف: د.ريهام غنيم",
+                date: "1444",
+                pages: 68,
+                downloads: 0,
+                filename: "services/1444/1444_svc_ghonaim_faculty_research_data_repository.pdf"
+            },
+            {
+                id: "svc-1444-5",
+                title: "تقويم اتجاهات الطلبة نحو مواقع الخدمات الالكترونية بالجامعات السعودية",
+                author: "المشرف: د.نداء طلبة",
+                date: "1444",
+                pages: 107,
+                downloads: 0,
+                filename: "services/1444/1444_svc_talba_electronic_services_saudi_universities.pdf"
+            },
+            {
+                id: "svc-1444-6",
+                title: "مدى وعي أعضاء هيئة التدريس بجامعة طيبة بالدوريات المفترسة: دراسة ميدانية",
+                author: "المشرف: أ.د.فايزة دسوقي",
+                date: "1444",
+                pages: 45,
+                downloads: 0,
+                filename: "services/1444/1444_svc_dasouqi_predatory_journals_faculty_awareness.pdf"
+            },
+            {
+                id: "svc-1444-7",
+                title: "دور الوعي المعلوماتي في تنمية المواطنة الرقمية لدى طلاب كليات الريان الأهلية في المدينة المنورة: دراسة حالة",
+                author: "المشرف: د.صقر العتيبي",
+                date: "1444",
+                pages: 70,
+                downloads: 0,
+                filename: "services/1444/1444_svc_alutaibi_information_literacy_digital_citizenship.pdf"
+            },
+            {
+                id: "svc-1444-8",
+                title: "إفادة الباحثين من خدمات تحرير المستودات البحثية المقدمة من دار النشر Elsevier دراسة ميدانية على الباحثين في قطاع العلوم التطبيقية",
+                author: "المشرف: د.أمل عبدالفتاح",
+                date: "1444",
+                pages: 77,
+                downloads: 0,
+                filename: "services/1444/1444_svc_abdulfattah_elsevier_editing_services.pdf"
+            },
+            {
+                id: "svc-1444-9",
+                title: "سلوكيات البحث عن المعلومات الصحية من جانب المرأة السعودية: دراسة ميدانية",
+                author: "المشرف: د.نداء طلبة",
+                date: "1444",
+                pages: 95,
+                downloads: 0,
+                filename: "services/1444/1444_svc_talba_health_information_seeking_saudi_women.pdf"
             }
         ],
         "1443": [
-           
+            {
+                id: "svc-1443-1",
+                title: "فعالية برنامج تدريبي مقترح لتنمية الوعي بالأمن السيبراني لدى طالبات كلية الآداب والعلوم الإنسانية: دراسة تجريبية",
+                author: "المشرف: د.امل عبدالفتاح",
+                date: "1443",
+                pages: 112,
+                downloads: 0,
+                filename: "services/1443/1443_svc_abdulfattah_cybersecurity_awareness_program.pdf"
+            }
         ]
     },
 
@@ -107,6 +220,60 @@ const researchData = {
                 pages: 133,
                 downloads: 0,
                 filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
+            },
+            {
+                id: "tech-1444-1",
+                title: "التحول الرقمي للأرشيف المدارس الحكومية - رؤية مقترحة",
+                author: "المشرف: د.رحاب سويفي",
+                date: "1444",
+                pages: 117,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_suwayfi_digital_transformation_school_archives.pdf"
+            },
+            {
+                id: "tech-1444-2",
+                title: "المواقع الإلكترونية السياحية ودورها في تعزيز السياحة الدينية في مكة المكرمة والمدينة المنورة: دراسة تقييمية",
+                author: "المشرف: د.نسرين شرابي",
+                date: "1444",
+                pages: 124,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_sharabi_tourism_websites_religious_tourism.pdf"
+            },
+            {
+                id: "tech-1444-3",
+                title: "دور شبكة التواصل الاجتماعي تويتر في نشر التوعية الفكرية لطلبة جامعة طيبة دراسة مسحية",
+                author: "المشرف: د.نسرين شرابي",
+                date: "1444",
+                pages: 126,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_sharabi_twitter_intellectual_awareness.pdf"
+            },
+            {
+                id: "tech-1444-4",
+                title: "ادارة البيانات والذكاء الاصطناعي الهيئة السعودية للبيانات والذكاء الاصطناعي دراسة وصفية تحليلية",
+                author: "المشرف: د.نداء طلبة",
+                date: "1444",
+                pages: 108,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_talba_data_management_ai_authority.pdf"
+            },
+            {
+                id: "tech-1444-5",
+                title: "إنترنت الأشياء وتطبيقاتها في بيئة المكتبات الوطنية، دراسة إستكشافية للفرص والتحديات مكتبة الملك فهد أنموذجاً",
+                author: "المشرف: د.هديل الشريف",
+                date: "1444",
+                pages: 110,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_alsharif_iot_national_libraries.pdf"
+            },
+            {
+                id: "tech-1444-6",
+                title: "المنصات التدريبة بالمملكة العربية السعودية ودورها في توفير الدورات التدريبة المجانية لسوق العمل في مجال المكتبات والمعلومات: دراسة مسحية",
+                author: "المشرف: د.نسرين شرابي",
+                date: "1444",
+                pages: 100,
+                downloads: 0,
+                filename: "technology/1444/1444_tech_sharabi_training_platforms_lis_job_market.pdf"
             }
         ],
         "1443": [
@@ -137,57 +304,89 @@ const researchData = {
                 pages: 180,
                 downloads: 0,
                 filename: "technology/1443/1443_tech_alshishini_digital_platforms_vision2030.pdf"
+            },
+            {
+                id: "tech-1443-1",
+                title: "حصر المواقع والمنصات الإلكترونية التي تفيد طلبة تخصص علم المعلومات: دراسة وصفية تحليلية تقييمية",
+                author: "المشرف: د.بسمة خليفة",
+                date: "1443",
+                pages: 140,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_khalifa_websites_platforms_infoscience.pdf"
+            },
+            {
+                id: "tech-1443-2",
+                title: "حماية البيانات الشخصية في تكنولوجيا المعلوماتية: دراسة تحليلة",
+                author: "المشرف: أ.د.أسامة حامد",
+                date: "1443",
+                pages: 52,
+                downloads: 0,
+                filename: "technology/1443/1443_tech_hamed_personal_data_protection.pdf"
             }
         ]
     },
 
     IKMInstitutions: {
-        "1446": [
-            
-        ],
-        "1445": [
-          
-            {
-                id: "tech-1445-2",
-                title: "الافادة من التطبيقات التعليمية في مدارس المدينة المنورة: دراسة ميدانية",
-                author: "المشرف: د.بسمة خليفة الشيشيني",
-                date: "1445",
-                pages: 92,
-                downloads: 0,
-                filename: "technology/1445/1445_tech_alshishini_educational_apps_medina.pdf"
-            }
-        ],
+        "1446": [],
+        "1445": [],
         "1444": [
           
             {
-                id: "tech-1444-2",
-                title: "تقييم المواقع الالكترونية والتطبيقات الذكية لشركات الاتصالات بالمملكة العربية السعودية: دراسة تقييمية",
-                author: "المشرف: د.بسمة خليفة الشيشيني",
+                id: "ikm-1444-1",
+                title: "واقع تطبيق ادارة المعرفة بالغرفة التجارية في المدينة المنورة: دراسة ميدانية",
+                author: "المشرف: د.أمل عبدالفتاح",
                 date: "1444",
-                pages: 133,
+                pages: 75,
                 downloads: 0,
-                filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
+                filename: "IKMInstitutions/1444/1444_ikm_abdulfattah_knowledge_management_medina_chamber.pdf"
             },
             {
-                id: "tech-1444-2",
-                title: "تقييم المواقع الالكترونية والتطبيقات الذكية لشركات الاتصالات بالمملكة العربية السعودية: دراسة تقييمية",
-                author: "المشرف: د.بسمة خليفة الشيشيني",
+                id: "ikm-1444-2",
+                title: "إفادة مكتبة الجامعة الإسلامية من البيانات الضخمة وتحليلاتها في دعم واتخاذ القرار: دراسة ميدانية",
+                author: "المشرف: د.ريهام غنيم",
                 date: "1444",
-                pages: 133,
+                pages: 74,
                 downloads: 0,
-                filename: "technology/1444/1444_tech_alshishini_telecom_websites_evaluation.pdf"
+                filename: "IKMInstitutions/1444/1444_ikm_ghonaim_big_data_islamic_university_library.pdf"
+            },
+            {
+                id: "ikm-1444-3",
+                title: "المستودع الرقمي بمجمع الملك عبدالعزيز للمكتبات الوقفية: دراسة تقييمية",
+                author: "المشرف: أ.د.أسامة حامد",
+                date: "1444",
+                pages: 56,
+                downloads: 0,
+                filename: "IKMInstitutions/1444/1444_ikm_hamed_king_abdulaziz_digital_repository.pdf"
+            },
+            {
+                id: "ikm-1444-4",
+                title: "نظام إدارة المعاملات الإدارية (راسل) بجامعة طيبة: دراسة تحليلية تقييمية",
+                author: "المشرف: أ.د.أسامة حامد",
+                date: "1444",
+                pages: 50,
+                downloads: 0,
+                filename: "IKMInstitutions/1444/1444_ikm_hamed_rasel_administrative_system_taibah.pdf"
+            },
+            {
+                id: "ikm-1444-5",
+                title: "اثر مشاوكة المعرفة على الاداء الوظيفي عن منسوبي المديرية العامة للشؤون الصحية بالمدينة المنورة: دراسة ميدانية",
+                author: "المشرف: د.رحاب سويفي",
+                date: "1444",
+                pages: 65,
+                downloads: 0,
+                filename: "IKMInstitutions/1444/1444_ikm_suwayfi_knowledge_sharing_health_affairs.pdf"
             }
         ],
         "1443": [
            
             {
-                id: "tech-1443-2",
-                title: "التطبيقات الذكية كأحد مشروعات التحول الرقمي في ظل رؤية المملكة العربية السعودية 2030: دراسة وصفية تحليلية تقييميه",
-                author: "المشرف: د.بسمة خليفة الشيشيني",
+                id: "ikm-1443-1",
+                title: "دور حكومة المملكة العربية السعودية في التمكين العلمي والبحثي للمرأة في ظل جائحة كورونا: دراسة تطبيقية وببليوجرافية ببليومترية",
+                author: "المشرف: د.امل عبدالفتاح",
                 date: "1443",
-                pages: 125,
+                pages: 216,
                 downloads: 0,
-                filename: "technology/1443/1443_tech_alshishini_smart_apps_vision2030.pdf"
+                filename: "IKMInstitutions/1443/1443_ikm_abdulfattah_women_scientific_empowerment_covid.pdf"
             }
           
         ]
